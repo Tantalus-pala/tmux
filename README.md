@@ -264,30 +264,6 @@ Makedown使用了很多特殊符号来表示特定的含义，如果需要显示
 
 \ `*_{}[]()#+-.! 这些符号可以通过反斜杠来转义
 
-### 公式
-
-当你需要插入数学公式时，可以使用两个$$美元符号包裹TeX或者LaTeX格式的数学公式来实现。
-
-```
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
-```
-
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
 
 
 
@@ -318,7 +294,7 @@ $$
 
 
 
-[1]:https://www.google.com
+
 
 
 
